@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/delanaeini/Mohammad-Caligraphy.git"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
@@ -22,5 +23,9 @@
     "popper.js": "^1.16.1"
   },
   "author": "Dela Naeini",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delanaeini/Mohammad-Caligraphy/issues"
+  },
+  "homepage": "https://github.com/delanaeini/Mohammad-Caligraphy#readme"
 }
