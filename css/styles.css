@@ -23,11 +23,21 @@ hr{
 }
 
 .navbar {
-    background-color:rgb(55, 44, 46, 0.5);}
+    background-color:rgb(55, 44, 46);
+}
 
 .navbar-nav > li{
     margin-right:3rem;
-  }
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.navbar-toggler{
+    padding: 2rem;
+    border: 0;
+}
 
 footer{
     background-color: #f3ece6;
