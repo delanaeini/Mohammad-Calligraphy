@@ -34,6 +34,10 @@ hr{
     text-align: right;
 }
 
+.nav-item.active{
+    border-bottom: 2px solid orange;
+}
+
 .navbar-toggler{
     padding: 2rem;
     border: 0;
@@ -41,6 +45,9 @@ hr{
 
 footer{
     background-color: #f3ece6;
+    color:black;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
 }
 
 .carousel-caption {
