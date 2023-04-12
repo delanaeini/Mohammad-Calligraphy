@@ -3,14 +3,16 @@ body {
     background-color: #372c2e;
 }
 
+#index-image{
+    width: 100%;
+    position: relative;
+}
 h1, h2, h3 {
     font-family: cursive;
-}
-
-h2{
     color:#f3ece6;
-    font-weight: bold;
+    font-weight: semibold;
     padding: 3rem 0;
+    letter-spacing: 0.15rem;
 }
 
 hr{
@@ -64,3 +66,23 @@ footer{
 #contactForm {
     padding: 20px 0;
 }
+
+#contact-submit{
+    background-color: orange;
+    border-color: orange;
+    color: rgb(27, 27, 27);
+}
+
+#contact-submit:hover{
+    background-color: rgb(191, 124, 0);
+    border-color: rgb(191, 124, 0);
+    color: rgb(27, 27, 27);
+}
+
+#contact-submit:click{
+    background-color: rgb(191, 124, 0);
+    border-color: rgb(191, 124, 0);
+    color: rgb(27, 27, 27);
+}
+
+

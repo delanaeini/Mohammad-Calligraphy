@@ -1,0 +1,77 @@
+$dark-color: #372c2e;
+$bright-color: #f3ece6;
+$accent-color: orange;
+
+.btn-primary {
+    @include button-variant($accent-color, darken($accent-color, 7.5%), darken($accent-color, 10%), lighten($accent-color,5%), lighten($accent-color, 10%), darken($accent-color,30%));
+}
+    
+.btn-outline-primary {
+    @include button-outline-variant($accent-color, #222222, lighten($accent-color,5%), $accent-color);
+}
+body {
+    color: $bright-color;
+    background-color: $dark-color;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+h2{
+    color: $bright-color;
+    font-weight: bold;
+    padding: 3rem 0;
+}
+
+hr{
+    border-color:$bright-color;
+}
+
+.row-content {
+    padding: 50px 0;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color:$dark-color;
+}
+
+.navbar-nav > li{
+    margin-right:3rem;
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.nav-item.active{
+    border-bottom: 2px solid $accent-color;
+}
+
+.navbar-toggler{
+    padding: 2rem;
+    border: 0;
+}
+
+footer{
+    background-color: $bright-color;
+    color:black;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 2rem;
+    bottom: auto;
+    background-color: rgba(73, 48, 41, 0.667);
+}
+
+/* .carousel-indicators {
+    color: #372c2e7c;
+} */
+
+#contactForm {
+    padding: 20px 0;
+}
