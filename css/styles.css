@@ -1,22 +1,23 @@
 body {
-    color: #f3ece6;
-    background-color: #372c2e;
+    color: #ededed;
+    background-color: #015f77;
 }
 
 #index-image{
     width: 100%;
     position: relative;
 }
-h1, h2, h3 {
+h1, h2 {
     font-family: cursive;
-    color:#f3ece6;
-    font-weight: semibold;
+    font-weight: bold;
     padding: 3rem 0;
     letter-spacing: 0.15rem;
 }
 
-hr{
-    border-color:#f3ece6;
+h3{
+    font-family: cursive;
+    font-weight: semibold;
+    letter-spacing: 0.05rem;
 }
 
 .row-content {
@@ -25,7 +26,7 @@ hr{
 }
 
 .navbar {
-    background-color:rgb(55, 44, 46);
+    background-color: #015165c0;
 }
 
 .navbar-nav > li{
@@ -37,7 +38,7 @@ hr{
 }
 
 .nav-item.active{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid rgb(250, 187, 0);
 }
 
 .navbar-toggler{
@@ -46,8 +47,8 @@ hr{
 }
 
 footer{
-    background-color: #f3ece6;
-    color:black;
+    background-color: rgb(250, 187, 0);
+    color: black;
     font-weight: 300;
     letter-spacing: 0.04rem;
 }
@@ -55,8 +56,12 @@ footer{
 .carousel-caption {
     position: absolute;
     top: 2rem;
-    bottom: auto;
-    background-color: #493029aa;
+    bottom: auto;/images/MMCalligraphy.jpeg
+    background-color: #00485ad7;
+}
+
+#carousel-caption {
+    padding: 1%;
 }
 
 /* .carousel-indicators {
@@ -67,7 +72,7 @@ footer{
     padding: 20px 0;
 }
 
-#contact-submit{
+/* #contact-submit{
     background-color: orange;
     border-color: orange;
     color: rgb(27, 27, 27);
@@ -83,6 +88,17 @@ footer{
     background-color: rgb(191, 124, 0);
     border-color: rgb(191, 124, 0);
     color: rgb(27, 27, 27);
+} */
+
+/* #index-bg {
+    background-image:url(/images/MMCalligraphy.jpeg);
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 500px;;
+    width: 80%;
 }
 
+#index-text {
+    text-align: right;
+} */
 
