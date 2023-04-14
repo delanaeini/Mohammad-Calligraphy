@@ -38,7 +38,7 @@ h3{
 }
 
 .nav-item.active{
-    border-bottom: 2px solid rgb(250, 187, 0);
+    border-bottom: 2px solid #fabb00;
 }
 
 .navbar-toggler{
@@ -47,7 +47,7 @@ h3{
 }
 
 footer{
-    background-color: rgb(250, 187, 0);
+    background-color: #fabb00;
     color: black;
     font-weight: 300;
     letter-spacing: 0.04rem;
@@ -56,17 +56,9 @@ footer{
 .carousel-caption {
     position: absolute;
     top: 2rem;
-    bottom: auto;/images/MMCalligraphy.jpeg
+    bottom: auto;
     background-color: #00485ad7;
 }
-
-#carousel-caption {
-    padding: 1%;
-}
-
-/* .carousel-indicators {
-    color: #372c2e7c;
-} */
 
 #contactForm {
     padding: 20px 0;
@@ -89,16 +81,13 @@ footer{
     border-color: rgb(191, 124, 0);
     color: rgb(27, 27, 27);
 } */
-
-/* #index-bg {
-    background-image:url(/images/MMCalligraphy.jpeg);
-    margin: auto;
-    background-repeat: no-repeat;
-    height: 500px;;
-    width: 80%;
+.carousel-control-prev-icon { 
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23015f77' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+    width: 30px;
+    height: 48px;
 }
-
-#index-text {
-    text-align: right;
-} */
-
+.carousel-control-next-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23015f77' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
