@@ -3,26 +3,22 @@ body {
     background-color: #015f77;
 }
 
-#index-image{
-    width: 100%;
-    position: relative;
-}
-h1, h2 {
+h1, h2, h3 {
     font-family: cursive;
-    font-weight: bold;
-    padding: 3rem 0;
-    letter-spacing: 0.15rem;
+    font-weight: semibold;
+}
+
+h1, h2 {
+    padding: 2rem 0;
+    letter-spacing: .15rem;
 }
 
 h3{
-    font-family: cursive;
-    font-weight: semibold;
     letter-spacing: 0.05rem;
 }
 
-.row-content {
-    padding: 50px 0;
-    min-height: 200px;
+#contact-text{
+    padding: 2rem 0;
 }
 
 .navbar {
@@ -57,11 +53,7 @@ footer{
     position: absolute;
     top: 2rem;
     bottom: auto;
-    background-color: #00485ad7;
-}
-
-#contactForm {
-    padding: 20px 0;
+    background-color: hsla(192, 100%, 18%, 0.65);
 }
 
 /* #contact-submit{
