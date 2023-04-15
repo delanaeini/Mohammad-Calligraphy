@@ -4,6 +4,11 @@
   "description": "portfolioproject",
   "main": "index.html",
   "scripts": {
+    "clean": "rimraf dist",
+    "usemin": "usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "imagemin": "imagemin images/* -o dist/images",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +18,11 @@
     "url": "git+https://github.com/delanaeini/Mohammad-Caligraphy.git"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
