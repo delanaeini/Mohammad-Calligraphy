@@ -1,59 +1,63 @@
 body {
-    color: #ededed;
-    background-color: #015f77;
+  color: #ededed;
+  background-color: hsl(188, 86%, 36%);
 }
 
-h1, h2, h3 {
-    font-family: cursive;
-    font-weight: semibold;
+h1,
+h2,
+h3 {
+  color: #fabb00;
+  font-family: cursive;
+  font-weight: semibold;
 }
 
-h1, h2 {
-    padding: 2rem 0;
-    letter-spacing: .15rem;
+h1,
+h2 {
+  padding: 2rem 0;
+  letter-spacing: 0.15rem;
 }
 
-h3{
-    letter-spacing: 0.05rem;
+h3 {
+  letter-spacing: 0.05rem;
 }
 
-#contact-text{
-    padding: 2rem 0;
+#contact-text {
+  padding: 2rem 0;
 }
 
 .navbar {
-    background-color: #015165c0;
+  background-color: hsl(188, 85%, 32%, 60%);
 }
 
-.navbar-nav > li{
-    margin-right:3rem;
+.navbar-nav > li {
+  margin-right: 3rem;
 }
 
-.nav-item{
-    text-align: right;
+.nav-item {
+  text-align: right;
 }
 
-.nav-item.active{
-    border-bottom: 2px solid #fabb00;
+.nav-item.active {
+  border-bottom: 2px solid #fabb00;
 }
 
-.navbar-toggler{
-    padding: 2rem;
-    border: 0;
+.navbar-toggler {
+  padding: 2rem;
+  border: 0;
 }
 
-footer{
-    background-color: #fabb00;
-    color: black;
-    font-weight: 300;
-    letter-spacing: 0.04rem;
+footer {
+  background-color: #fabb00;
+  color: black;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 2rem;
-    bottom: auto;
-    background-color: hsla(192, 100%, 18%, 0.65);
+  position: absolute;
+  top: 2rem;
+  bottom: auto;
+  background-color: hsl(210, 10%, 23%, 50%);
 }
 
 /* #contact-submit{
@@ -73,13 +77,13 @@ footer{
     border-color: rgb(191, 124, 0);
     color: rgb(27, 27, 27);
 } */
-.carousel-control-prev-icon { 
-    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23015f77' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
-    width: 30px;
-    height: 48px;
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0D98AD' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 48px;
 }
-.carousel-control-next-icon { 
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23015f77' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-    width: 30px;
-    height: 48px;
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0D98AD' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 48px;
 }
