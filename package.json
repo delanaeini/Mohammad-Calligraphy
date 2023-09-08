@@ -29,9 +29,11 @@
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "imagemin": "^8.0.1",
     "jquery": "^3.5.1",
     "package.json": "^2.0.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "usemin": "^0.6.0"
   },
   "author": "Dela Naeini",
   "license": "ISC",
